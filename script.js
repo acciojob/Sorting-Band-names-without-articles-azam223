@@ -1,7 +1,7 @@
 Let bandNames = ['The Rolling Stone', "Led Zeppelin', 'Aerosmith', 'The Beatles']
 // Function to remove articles and return the modified band name function
 function removeArticles (name) {
-return name.replace(/(a Jan |the )/f, ).trim);
+return name.replace(/(a Jan |the )/i, '').trim);
 }
 let modifiedBandNames = bandNames.map(removeArticles);
 let ulElement = document. createElement (ul);
